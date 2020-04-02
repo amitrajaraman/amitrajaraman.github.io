@@ -1,0 +1,24 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+
+# Setup
+title:               Amit Rajaraman
+tagline:             
+description:         The links below should lead to wherever you want to go, feel free to explore!
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            1
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+collections:
+  notes:
+    output: true

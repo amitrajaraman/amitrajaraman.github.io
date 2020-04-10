@@ -8,3 +8,4 @@ Find any mistakes? [Here](https://forms.gle/gRVxPi6EnPGdFUe58)'s where you can t
 
 * [Automata Theory](/notes/automata) (Work in Progress)
 * [Group Theory](/notes/grouptheory) (Work in Progress)
+* [Coding Theory](/notes/codingtheory) (Work in Progress)

@@ -19,6 +19,8 @@ author:
 # Custom vars
 version:             1.0.0
 
+google_analytics: "UA-164224546-1"
+
 collections:
   notes:
     output: true

@@ -19,7 +19,14 @@ author:
 # Custom vars
 version:             1.0.0
 
+# Fill in your Google Analytics gtag.js ID to track your website using gtag
+gtag: "UA-164224546-1"
+
+# Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-164224546-1"
+
+# Google Tag Manager ID
+#gtm: ""
 
 collections:
   notes:

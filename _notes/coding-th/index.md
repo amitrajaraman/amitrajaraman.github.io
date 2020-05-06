@@ -3,7 +3,7 @@ layout: page
 title:	Coding Theory
 ---
 
-The link to the report in PDF is [this](/Coding_Theory.pdf).
+The link to the report in PDF is [this](Coding_Theory.pdf).
 
 Interested readers can find the TeX code for the above in [this GitHub repository](https://github.com/amitrajaraman/Coding-Theory).
 

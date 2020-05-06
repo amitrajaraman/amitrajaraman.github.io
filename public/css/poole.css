@@ -443,7 +443,6 @@ a.pagination-item:hover {
   color: {{ site.link-col  }};
   text-decoration: none;
   padding: 0px 5px;
-  background-color: #000;
 }
 
 .blog-tags a:hover {

@@ -12,9 +12,7 @@ paginate:            1
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Amit Rajaraman
 
 # Custom vars
 version:             1.0.0
@@ -28,6 +26,26 @@ google_analytics: "UA-164224546-1"
 # Google Tag Manager ID
 #gtm: ""
 
+# Select your active Social Network Links.
+# Uncomment the links you want to show in the footer and add your information to each link.
+# You can reorder the items to define the link order.
+# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
+social-network-links:
+  rss: true
+  email: "190050015@iitb.ac.in"
+  facebook: amit.rajaraman
+  github: amitrajaraman
+#  twitter: yourname
+#  reddit: yourname
+#  linkedin: yourname
+  stackexchange: "10918067/amit-rajaraman"
+#  spotify: 
+#  telephone: 
+#  steam: 
+#  twitch: yourname
+#  yelp: yourname
+
 collections:
   notes:
     output: true
+

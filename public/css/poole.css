@@ -432,18 +432,16 @@ a.pagination-item:hover {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: sans-serif, 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
-  background-color: #000;
 }
 
 .blog-tags a {
   color: #999;
   text-decoration: none;
   padding: 0px 5px;
-  background-color: #000;
 }
 
 .blog-tags a:hover {

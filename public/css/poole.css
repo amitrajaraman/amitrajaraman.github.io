@@ -440,7 +440,7 @@ a.pagination-item:hover {
 }
 
 .blog-tags a {
-  color: #999;
+  color: {{ site.link-col  }};
   text-decoration: none;
   padding: 0px 5px;
   background-color: #000;

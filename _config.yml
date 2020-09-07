@@ -10,6 +10,8 @@ url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            1
 markdown:            kramdown
+kramdown:
+  math_engine:       mathjax
 
 # About/contact
 author:

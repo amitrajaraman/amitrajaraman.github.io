@@ -1,5 +1,9 @@
+---
+layout: page
+title: Bash and the Command Line Interface
+---
+
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
-# Introduction to Bash and the Command Line Interface
 
 Unix has several commands for various purposes. They can be slightly modified using "options".
 

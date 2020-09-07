@@ -12,7 +12,7 @@ Modern software is built
 Version control records changes to the files over a set of time so that you can go back and look at specific versions later.
 
 * The version currently being worked on is called the *checkout*
-* The difference $\Delta$ between one version and another is called the *patch set*.
+* The difference $$\Delta$$ between one version and another is called the *patch set*.
 
 You can have a localized version control system and a collaborative version control system.
 

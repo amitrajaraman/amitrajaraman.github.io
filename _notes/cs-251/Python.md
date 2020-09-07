@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML" async></script>
 # Python
 
 ## Basic Python
@@ -242,7 +243,9 @@ This allows us to test modules separately without having a different version for
 Consider the functions
 
 $$\tan(x) = \dfrac{x}{1-\dfrac{x^2}{3-\dfrac{x^2}{5-\cdots}}}$$
+
 $$\sqrt{x+\sqrt{x+\sqrt{x+\cdots}}}$$
+
 $$\frac{x}{1!}-x^2\cdot\left(\frac{x}{3!}-x^2\cdot\left(\frac{x}{5!}-\cdots\right)\right)$$
 
 Is it possible to view these computations as part of some pattern? They do something like 
@@ -251,9 +254,9 @@ Is it possible to view these computations as part of some pattern? They do somet
 	|    |    |    |
 	n1   m1   n2   m2
 
-where we calculate from the right to the left. For example, in the first case, we can think of \(f\) as division, \(g\) as subtraction, \(n_i\) as \(x^i\), and \(m_i\) as \(2i-1\).
+where we calculate from the right to the left. For example, in the first case, we can think of $$f$$ as division, $$g$$ as subtraction, $$n_i$$ as $$x^i$$, and $$m_i$$ as $$2i-1$$.
 
-We can terminate the program at \(n_{k+1}\). Can we write a function that performs the general abstract method, so we can later substitute appropriate \(f,g,n_i,\) and \(m_i\) for the desired result?
+We can terminate the program at $$n_{k+1}$$. Can we write a function that performs the general abstract method, so we can later substitute appropriate $$f,g,n_i,$$ and $$m_i$$ for the desired result?
 
 	def higherorder(f, g, n, m, x, k):
 
@@ -263,7 +266,7 @@ We now do something that the reader might not have seen before: a nested functio
 			...
 	higherorder_helper(1)
 
-In ```higherorder_helper```, we define it recursively to compute the current level and go the next and break if \(i>k\) The body of the function is given as:
+In ```higherorder_helper```, we define it recursively to compute the current level and go the next and break if $$i>k$$ The body of the function is given as:
 
 		def higherorder_helper(i):
 			if(i>k):
@@ -271,7 +274,7 @@ In ```higherorder_helper```, we define it recursively to compute the current lev
 			else:
 				return f(n(i), g(m(i), higherorder_helper(i+1))
 
-We can then define the \(\tan\) function by
+We can then define the $$\tan$$ function by
 
 	def td(x,y):
 		#td for true division

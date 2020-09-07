@@ -9,6 +9,7 @@ description:         The links below should lead to wherever you want to go, fee
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            1
+markdown:            kramdown
 
 # About/contact
 author:
@@ -32,7 +33,7 @@ google_analytics: "UA-164224546-1"
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "190050015@iitb.ac.in"
+  email: "amit.rajaraman@iitb.ac.in"
   facebook: amit.rajaraman
   github: amitrajaraman
 #  twitter: yourname

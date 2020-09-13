@@ -248,9 +248,9 @@ Consider the functions
 
 $$\tan(x) = \dfrac{x}{1-\dfrac{x^2}{3-\dfrac{x^2}{5-\cdots}}}$$
 
-$$\sqrt{x+\sqrt{x+\sqrt{x+\cdots}}}$$
+$$s(x) = \sqrt{x+\sqrt{x+\sqrt{x+\cdots}}}$$
 
-$$\frac{x}{1!}-x^2\cdot\left(\frac{x}{3!}-x^2\cdot\left(\frac{x}{5!}-\cdots\right)\right)$$
+$$\sin(x) = \frac{x}{1!}-x^2\cdot\left(\frac{x}{3!}-x^2\cdot\left(\frac{x}{5!}-\cdots\right)\right)$$
 
 Is it possible to view these computations as part of some pattern? They do something like 
 

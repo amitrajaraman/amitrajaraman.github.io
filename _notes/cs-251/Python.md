@@ -295,36 +295,3 @@ We can then define the $$\tan$$ function by
 		def m_tan(i):
 			return 2*i-1
 		higherorder(td, sub, n_tan, m_tan, x_k)
-
-
-## Scientific Libraries in Python
-
-There are several libraries available for scientific computation in Python; some of the most important of these are Numpy, Scipy, Matplotlib, and Pandas. Numpy is built on Python, Scipy is built on Numpy, Matplotlib is helpful for plotting graphs, and Pandas gives some additional functionality.
-
-### Numpy
-
-The basic data structure in Numpy is the ```ndarray``` (n-dimensional array). It is homogenous (all elements must be of the same type). There are individual element operations, and there are several whole array operations which can do things like change the shape of an array. Operations on integers are similarly lifted to arrays. These array operations are extremely efficient. Throughout this section, suppose that we have imported ```numpy as np```.
-
-While Python lists have some general list information followed by all the pointers to the data, Python arrays have the general array information (such as dimension and shape) followed by the data itself in contiguous blocks (much like in C++). Each block is of a fixed size.    
-
-Numpy arrays have similar representation to ```array.array```: some general information followed by the data in contiguous blocks.    
-The *shape* of an ```ndarray``` can be accessed by ```arr.shape``` and represents the "dimensions" of the array. So the shape of ```[12]``` is ```(1,)```. Similarly, the shape of ```[[],[]]``` is ```(2,0)```.
-
-Now consider the following sequence of commands:
-
-	>>> narr = np.arange(1,5)
-	>>> narr
-	array([1, 2, 3, 4])
-	>>> narr1 = narr.reshape(2,2)
-	>>> narr1
-	array([[1, 2],
-	       [3, 4]])
-
-If we instead try to reshape into ```(3,1)```, then as expected,
-
-	>>> narr2 = narr.reshape(3,1)
-	Traceback (most recent call last):
-	  File "<stdin>", line 1, in <module>
-	ValueError: cannot reshape array of size 4 into shape (3,1)
-
-An important point is that when we reshape an array, it shares its data with the original array, it merely carries the general array information.

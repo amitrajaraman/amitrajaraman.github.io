@@ -194,5 +194,116 @@ Writing ```sed``` scripts in a scriptfile usually hugely improves readability. T
 	  	G
 	  }' inpFile.csv
 
-The braces must appear on a different line from the ```sed``` commands
+The braces must appear on a different line from the ```sed``` commands.
 
+## awk
+
+### Introduction
+
+```awk``` is a scripting language that is used for manipulating data and generating reports.    
+Similar to ```sed```, it scans a file line by line, splits each input line into fields, compares input line/fields to a pattern, and performs the given action(s) on matched lines.
+
+The basic ```awk``` syntax is
+
+	awk [options] 'script' file(s)
+	awk [options] -f scriptfile file(s)
+
+If a pattern is missing, the action is applied to all lines. If the action is missing, the matched line is printed. You must have either a pattern or an action.
+
+A *field* is a unit of data in a line. Each field is separated from the other fields by a field separator (by default whitespace). A *record* is a collection of the fields in a line, and a data file is made up of records.
+
+We can address each field buffer by ```$1```, ```$2```, ..., ```$n```, where n is the number of fields in the given record. We can also refer to the entire record buffer by ```$0```.
+
+```awk``` has several pre-defined variables:
+
+* ```FS``` is the field separator (whitespace by default)
+* ```RS``` is the record separator (```\n``` by default)
+* ```NF``` is the number of fields in the current record
+* ```NR``` is the number of the current record
+* ```OFS``` is the output field separator (space by default)
+* ```ORS``` is the output record separator (```\n``` by default)
+* ```FILENAME``` is the current filename.
+
+For example,
+
+	ls -al | awk '{print NR, $9}'
+
+will number and print the files in the current directory
+
+### Script Structure
+
+```awk``` scripts are divded into three major parts.
+
+	BEGIN {pre-processing statements}
+
+	pattern (action)
+	pattern (action)
+
+	END {post-processing statements}
+
+The part following ```BEGIN``` is done at the beginning of before ```awk``` starts reading any records from the input file. It is helpful for initializing variables, creating report headings, etc.    
+The body contains the logic to be applied to the input file, one record at a time.    
+The part following ```END``` is done after all the records in the file have been processed. It is useful for reporting aggregates such as, say, the mean of the data.
+
+Each part of the body can be written well-formatted as
+
+	pattern {
+			 statement
+			 statement
+			 ...
+			 statement
+			}
+
+We've already seen two patterns, namely ```BEGIN``` and ```END```. Some other patterns are
+
+* Regular expressions: enclosed by ```/```s like in ```sed```. This matches any record that contains the given regex. For example, to print all records with the text ```special``` anywhere,
+	
+		awk '/special/ {print}'
+
+* Explicit pattern-matching expressions: ```~``` for matching and ```!~``` for not matching. For example, to print the records whose first field matches ```19D[A-Z0-9]+```,
+
+		awk -F, '($1~/19D[A-Z0-9]+/){print NR, $0}' inpFile.csv
+
+	Note that ```/special/ {print}``` is the same as ```($0~/special/)```.
+
+* We can have expressions that have arithmetic operators in them. For example,
+
+		awk '$3 * $4 > 500 {print $0}' file
+
+	prints the records that have the product of the third and fourth fields greater than 500.
+
+* Range patterns: These are used as 
+		
+		pattern1, pattern2 {action}
+
+	For example,
+
+		awk /190050009/,/190050015/{print} inpFile.csv
+
+```awk``` expressions are made up of variables, constants, and operators.
+
+What if we want to pass shell variables to an ```awk``` script? The scope of a user-defined variable does not extend to an ```awk``` script, we must instead use the ```-v``` switch like
+
+	printf $a
+	printf "\n"
+	awk -v v="$a" ' 
+	BEGIN  {
+		print "Printing v"; print v'}'
+	inpFile.csv
+
+Here, ```$a``` is a variable outside the ```awk``` script, that we pass to the ```awk``` by creating a new variable with name ```v```.
+
+We can also make *associative arrays*, which are something like maps in C++, where the indices are defined by use. For example, in [this data](covidData.csv), we can run the following script to find the number of cases per state:
+
+	awk -F '
+	# ($9~/[A-Z][A-Z]/)
+	{
+		state[$9]=state[$9]+$10
+	}
+	END {
+		for (i in state) {
+			print state[i], i;
+		}
+	}' covidCases.csv
+
+For output in ```awk```, we can use ```print```, ```printf``` (like in C), and ```sprintf``` (like in C).

@@ -76,7 +76,7 @@ It is easily proved that $$C$$ is monotonic increasing. To show our claim, we fi
 
 For some $$i>1$$, consider $$W_i$$ and $$W_{i-1}$$. Let $$p$$ be the position of the minimum in the union of these two windows (which spans $$w+1$$ positions).
 
-* If $$p=i-1$$, then since $$p$$ is not in $$W_i$$, $$i\in\operatorname{Im}(C)$$ and $$X_i=1$$.
+* If $$p=i-1$$, then since $$p$$ is not in $$W_i$$, $$i$$ must lie in the image of $$C$$ and $$X_i=1$$.
 * If $$p=i+w-1$$, then $$i$$ must be in $$\Im(C)$$ and $$X_i=1$$.
 * Finally, if $$p\in [i,i+w-2]\cap\mathbb{N}$$, then as $$p$$ is in both $$W_{i-1}$$ and $$W_i$$, $$X_i=0$$.
 

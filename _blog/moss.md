@@ -16,8 +16,8 @@ A natural next question is: how do we appropriately and efficiently choose finge
 
 We cannot do something as simple as say, choosing every $$i$$th hash value, because that does not protect against the third property described in the [subsequent section](#desirableProps). Indeed, adding a single character at the beginning of a document could result in completely different fingerprints.
 
-An idea that comes to mind is: select some reasonable value $$w$$ (a "window width"), and ensure that you choose at least one hash value per window. Indeed, if we do this, then we can identify any matching substring of length at least $$w+k-1$$. The algorithm chooses some (non-zero) number of hashes from this window. Let the _density_ of the algorithm be the expected number of hashes it chooses.    
-Now of course in real life examples, data isn't as random as that which is considered in the theoretical general case, there are often several repeating strings.
+An idea that comes to mind is: select some reasonable value $$w$$ (a "window width"), and ensure that you choose at least one hash value per window. If we do this, then we can identify any matching substring of length at least $$w+k-1$$. The algorithm chooses some (non-zero) number of hashes from this window. Let the _density_ of the algorithm be the expected number of hashes it chooses.    
+Now of course in real life examples, data isn't as random as that which is considered in the theoretical general case. There are often several repeating strings.
 
 ## <a name="desirableProps"></a>Desirable Properties
 

@@ -13,3 +13,5 @@ You can contact me at:
 You can also see more of my online presence here:
 * [Stack Exchange](https://stackexchange.com/users/10918067/amit-rajaraman)
 * [GitHub](https://github.com/amitrajaraman)
+
+You can see a list of the courses I've taken/am taking [here](courses).

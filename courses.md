@@ -11,16 +11,16 @@ Here's a list of courses I've taken/am taking. The courses I'm taking this semes
 * CS 152: Abstractions and Paradigms for Programming
 * CS 154: Programming Paradigms Laboratory
 * CS 207: Discrete Structures*
-* CS 213: Data Structures and Algorithms*
+* CS 213: Data Structures and Algorithms
 * CS 215: Data Analysis and Interpretation*
 * CS 251: Software Systems Lab*
-* CS 293: Data Structures and Algorithms Lab*
+* CS 293: Data Structures and Algorithms Lab
 
 ### Department of Mathematics
 
 * MA 105: Calculus
 * MA 106: Linear Algebra
-* MA 403: Real Analysis (Minor)*
+* MA 403: Real Analysis (Minor)
 * MA 842: Topics in Algebra II
 
 ### Miscellaneous

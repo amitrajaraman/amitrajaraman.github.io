@@ -10,10 +10,10 @@ Here's a list of courses I've taken/am taking. The courses I'm taking this semes
 * CS 101: Computer Programming and Utilization
 * CS 152: Abstractions and Paradigms for Programming
 * CS 154: Programming Paradigms Laboratory
-* CS 207: Discrete Structures*
+* CS 207: Discrete Structures
 * CS 213: Data Structures and Algorithms
-* CS 215: Data Analysis and Interpretation*
-* CS 251: Software Systems Lab*
+* CS 215: Data Analysis and Interpretation
+* CS 251: Software Systems Lab
 * CS 293: Data Structures and Algorithms Lab
 
 ### Department of Mathematics
@@ -28,7 +28,7 @@ Here's a list of courses I've taken/am taking. The courses I'm taking this semes
 * PH 107: Quantum Physics and Application
 * PH 108: Basics of Electricity & Magnetism
 * PH 117: Physics Lab
-* EE 101: Introduction to Electrical and Electronics Circuits*
+* EE 101: Introduction to Electrical and Electronics Circuits
 * CH 105: Organic & Inorganic Chemistry
 * CH 107: Physical Chemistry
 * CH 117: Chemistry Lab

@@ -51,4 +51,5 @@ collections:
     output: true
   blog:
     output: true
-
+  about:
+    output: true

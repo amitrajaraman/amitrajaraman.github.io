@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-Hello! I'm Amit Rajaraman, a second year CS undergrad at the Indian Institute of Technology, Bombay.
+Hello! I'm Amit Rajaraman, a second year CS undergraduate at the Indian Institute of Technology, Bombay.
 
 You can contact me at:
 * [amit.rajaraman@iitb.ac.in](mailto:amit.rajaraman@iitb.ac.in)

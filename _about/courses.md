@@ -3,7 +3,7 @@ layout: page
 title: List of Courses
 ---
 
-Here's a list of courses I've taken/am taking. The courses I'm taking this semester are marked with a ```*```:
+Here's a list of courses I have taken/am taking. The courses I am taking this semester are marked with a ```*```:
 
 ### Department of Computer Science
 

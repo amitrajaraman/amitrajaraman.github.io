@@ -21,20 +21,27 @@ Here's a list of courses I have taken/am taking. The courses I am taking this se
 * CS 252: Computer Networks Lab
 * CS 254: Digital Logic Design Lab
 * CS 293: Data Structures and Algorithms Lab
+* CS 302: Implementation of Programming Languages*
 * CS 305: Computer Architecture
+* CS 310: Automata Theory*
+* CS 316: Implementation of Programming Languages Lab*
+* CS 317: Database and Information Systems*
 * CS 333: Operating Systems Lab
 * CS 335: Artificial Intelligence and Machine Learning Lab
 * CS 337: Artificial Intelligence and Machine Learning
 * CS 341: Computer Architecture Lab
 * CS 347: Operating Systems
+* CS 387: Database and Information Systems Lab
 * CS 713: Special Topics in Automata and Logics
 
 ### Department of Mathematics
 
 * MA 105: Calculus
 * MA 106: Linear Algebra
+* MA 214: Numerical Analysis*
 * MA 403: Real Analysis
 * MA 406: General Topology
+* MA 412: Complex Analysis*
 * MA 5109: Graph Theory
 * MA 842: Topics in Algebra II
 

@@ -8,7 +8,7 @@ Hello! I'm Amit Rajaraman, a second year CS undergraduate at the Indian Institut
 You can contact me at:
 * firstname.lastname[at]iitb[dot]ac[dot]in
 * firstname.lastname[at]gmail[dot]com
-* firstnamelastname[at]cse[dot]iit[dot]ac[dot]in
+* firstnamelastname[at]cse[dot]iitb[dot]ac[dot]in
 
 You can also see more of my online presence here:
 * [Stack Exchange](https://stackexchange.com/users/10918067/amit-rajaraman)

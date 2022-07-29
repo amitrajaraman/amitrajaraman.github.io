@@ -45,7 +45,7 @@ Here's a list of courses I have taken/am taking. The courses I am taking this se
 * MA 406: General Topology
 * MA 412: Complex Analysis
 * MA 5109: Graph Theory
-* MA 833: Weak Convergance and Martingale Theory
+* MA 833: Weak Convergence and Martingale Theory
 * MA 842: Topics in Algebra II
 * MA 861: Combinatorics I
 

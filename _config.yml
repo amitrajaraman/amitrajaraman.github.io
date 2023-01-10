@@ -53,5 +53,5 @@ collections:
     output: true
   about:
     output: true
-  research:
+  publications:
     output: true

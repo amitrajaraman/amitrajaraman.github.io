@@ -53,3 +53,5 @@ collections:
     output: true
   about:
     output: true
+  research:
+    output: true

@@ -32,9 +32,12 @@ Here's a list of courses I have taken/am taking. The courses I am taking this se
 * CS 341: Computer Architecture Lab
 * CS 347: Operating Systems
 * CS 387: Database and Information Systems Lab
-* CS 6001: Game Theory and Algorithmic Mechanism Design*
+* CS 6001: Game Theory and Algorithmic Mechanism Design
 * CS 713: Special Topics in Automata and Logics
-* CS 761: Derandomization and Pseudorandomness*
+* CS 759: Perfect Matchings: Algorithms and Complexity*
+* CS 761: Derandomization and Pseudorandomness
+* CS 767: Theoretical Machine Learning*
+* CS 779: Extremal Combinatorics*
 
 ### Department of Mathematics
 
@@ -45,9 +48,10 @@ Here's a list of courses I have taken/am taking. The courses I am taking this se
 * MA 406: General Topology
 * MA 412: Complex Analysis
 * MA 5109: Graph Theory
-* MA 833: Weak Convergence and Martingale Theory*
+* MA 833: Weak Convergence and Martingale Theory
 * MA 842: Topics in Algebra II
-* MA 861: Combinatorics I*
+* MA 861: Combinatorics I
+* MA 862: Combinatorics II*
 
 ### Miscellaneous
 
@@ -58,7 +62,7 @@ Here's a list of courses I have taken/am taking. The courses I am taking this se
 * HS 101: Economics
 * HS 200: Environmental Studies
 * HS 301: Philosophy
-* ES 200: Environmental Studies: Science and Engineering*
+* ES 200: Environmental Studies: Science and Engineering
 * CH 105: Organic & Inorganic Chemistry
 * CH 107: Physical Chemistry
 * CH 117: Chemistry Lab

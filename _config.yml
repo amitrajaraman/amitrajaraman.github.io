@@ -53,5 +53,3 @@ collections:
     output: true
   about:
     output: true
-  publications:
-    output: true

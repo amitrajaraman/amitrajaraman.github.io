@@ -3,7 +3,7 @@ layout: page
 title: List of Courses
 ---
 
-Here's a list of courses I have taken/am taking. The courses I'm taking this semester are marked with a ```*```:
+Here's a list of courses I took while at IIT Bombay.
 
 ### Department of Computer Science
 
@@ -34,10 +34,10 @@ Here's a list of courses I have taken/am taking. The courses I'm taking this sem
 * CS 387: Database and Information Systems Lab
 * CS 6001: Game Theory and Algorithmic Mechanism Design
 * CS 713: Special Topics in Automata and Logics
-* CS 759: Perfect Matchings: Algorithms and Complexity*
+* CS 759: Perfect Matchings: Algorithms and Complexity
 * CS 761: Derandomization and Pseudorandomness
-* CS 767: Theoretical Machine Learning*
-* CS 779: Extremal Combinatorics*
+* CS 767: Theoretical Machine Learning
+* CS 779: Extremal Combinatorics
 
 ### Department of Mathematics
 
@@ -51,7 +51,7 @@ Here's a list of courses I have taken/am taking. The courses I'm taking this sem
 * MA 833: Weak Convergence and Martingale Theory
 * MA 842: Topics in Algebra II
 * MA 861: Combinatorics I
-* MA 862: Combinatorics II*
+* MA 862: Combinatorics II
 
 ### Miscellaneous
 

@@ -5,7 +5,7 @@
 # Setup
 title:               Amit Rajaraman
 tagline:             
-description:         The links below should lead to wherever you want to go, feel free to explore!
+description:         Explore!
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            1
@@ -16,7 +16,7 @@ author:
   name:              Amit Rajaraman
 
 # Custom vars
-version:             1.0.0
+version:             2.0.0
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
 gtag: "UA-164224546-1"
@@ -52,4 +52,6 @@ collections:
   blog:
     output: true
   about:
+    output: true
+  personal:
     output: true

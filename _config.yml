@@ -33,7 +33,7 @@ google_analytics: "UA-164224546-1"
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   rss: true
-  email: "amit.rajaraman@iitb.ac.in"
+  email: "amit_r@mit.edu"
   facebook: amit.rajaraman
   github: amitrajaraman
 #  twitter: yourname
